@@ -1,0 +1,50 @@
+// Flexbox
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-jc-c {
+        justify-content: center;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+
+    &-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+// Colors
+@each $key, $color in $colors {
+    .clr-#{$key} {
+        color: $color;
+    }
+}
+
+@each $key, $color in $colors {
+    .bg-#{$key} {
+        background: $color;
+    }
+}
+
+// Font sizes
+@each $key, $size in $font-sizes {
+    .fs-#{$key} {
+        font-size: $size;
+        line-height: $size + 0.5;
+    }
+}
+
+@include media-m {
+    // Font sizes
+    @each $key, $size in $font-sizes-mobile {
+        .fs-#{$key} {
+            font-size: $size;
+            line-height: $size + 0.5;
+        }
+    }
+}

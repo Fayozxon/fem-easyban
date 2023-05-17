@@ -1,0 +1,39 @@
+// Colors
+$colors: (
+    "500":#2d314d,
+    "400":#9698a6,
+    "300":#f3f4f6,
+    "200":#fafafa,
+    "100":#fff
+);
+
+$gradient-accent: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+
+// Font sizes
+$font-sizes: (
+    "xxlarge":3.375rem,
+    "xlarge":2.625rem,
+    "large":1.5rem,
+    "medium":1.125rem,
+    "small":1rem,
+    "xsmall":0.875rem
+);
+
+$font-sizes-mobile: (
+    "xxlarge":2.625rem,
+    "xlarge":2rem,
+    "large":1.25rem,
+    "medium":1rem,
+    "small":0.875rem,
+    "xsmall":0.875rem
+);
+
+// Weights
+$fw-bold: 700;
+$fw-regular: 400;
+$fw-light: 300;
+
+// Transition
+$tr-100: all 100ms ease-in-out;
+$tr-200: all 200ms ease-in-out;
+$tr-300: all 300ms ease-in-out;

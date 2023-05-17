@@ -1,0 +1,20 @@
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 100vh;
+    background: $gradient-accent;
+    color: map-get($colors, "100");
+    text-decoration: none;
+    font-size: map-get($map: $font-sizes, $key: "small");
+    font-weight: $fw-regular;
+    cursor: pointer;
+    transition: $tr-100;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:active {
+        opacity: 75%;
+    }
+}

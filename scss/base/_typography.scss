@@ -1,0 +1,14 @@
+// Headings
+
+
+
+// Text
+a {
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
